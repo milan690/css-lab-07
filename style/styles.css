@@ -1,0 +1,108 @@
+/* General Reset */ 
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Typography */ 
+
+/* body content */ 
+body {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.126rem;
+    line-height: 1.5;   
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p:has(> a) {
+    text-align: center; 
+}
+
+/* Layout & Apperance */ 
+
+header {
+    height: 15vw;
+    background-color:#FF8360; 
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    color: #fff;   
+}
+
+.main-wrapper {
+    width: 80vw; 
+    margin: 0 auto;
+    border: 1.5px solid #999; 
+    padding: 1.1em;  
+
+
+}
+
+
+footer p,
+footer a {
+    background-color:#7DCE82; 
+    color: #fff;
+    padding: 1.8em;
+    border: 1.9px solid #fff;  
+}
+
+
+/* section */ 
+
+main section{
+    display: flex;
+    margin:1.9em 0;
+    gap:1em;
+}
+
+
+/* headings */
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Rampart One', cursive;
+}
+
+main section > div + p {
+    justify-content: right;
+    background-color: #3CDBD3;
+    padding: 1em;  
+}
+
+main section:nth-of-type(2) p {
+    background-color: #E8E288;
+    padding: 1.2em;  
+}
+
+
+
+
+
+footer p {
+    text-align:center;  
+    flex-grow: 2;
+}
+
+footer a {
+    background-color:#FF8360;
+}
+
+footer a:hover {
+    background-color: #9C528B; 
+}
+/* footer */ 
+footer{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items:flex-start;
+
+}
